@@ -3,10 +3,10 @@
 ## Sitemap
 
 - home
-  -about me
-  -projects
-   -cool website 01
-   -cool data base
-   -cool API server
-  -contact me
-  -skills/exoerience
+  - about me
+  - projects
+   - cool website 01
+   - cool data base
+   - cool API server
+  - contact me
+  - skills/exoerience
