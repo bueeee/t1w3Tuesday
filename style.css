@@ -32,6 +32,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
 footer {
@@ -39,6 +40,9 @@ footer {
     height: 5dvh;
     width: 100dvw;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main {
     min-height: 85dvh;
@@ -48,8 +52,20 @@ main {
     justify-content: center;
     align-items: center;
 }
+nav > a {
+    text-decoration: none;
+    background-color: var(--dartmouth-green);
+    color: white;
+    padding: 0.25em;
+    border-radius: 0.5em;
+
+}
+nav > a:hover {
+    background-color: var(--celadon);
+}
+
 main > p {
-    font-size: 100;
+    font-size: small;
 }
 
 main > img {
@@ -57,6 +73,10 @@ main > img {
     width: auto;
     background-color: var(-)
     color: var(-)
+}
+
+main > h1 {
+    text-align: center;
 }
 
 
