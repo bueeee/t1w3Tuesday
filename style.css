@@ -11,3 +11,55 @@
   --brunswick-green: #1b4332ff;
   --dark-green: #081c15ff;
 }
+font
+
+
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--mint);
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-color: var(--mint-2);
+    height: 10dvh;
+    width: 100dvw;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+footer {
+    background-color: var(--sea-green);
+    height: 5dvh;
+    width: 100dvw;
+    text-align: center;
+}
+main {
+    min-height: 85dvh;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main > p {
+    font-size: ;
+}
+
+main > img {
+    height: 50%
+    width: auto;
+    background-color: var(-)
+    color: var(-)
+}
+
+
+/* header, footer {
+    background-color: var(--brunswick-green)
+} */
